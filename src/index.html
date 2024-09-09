@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ice's Todo</title>
+</head>
+<body>
+    <div id="content">
+        <div id="sidebar">
+
+            <div id="user-details">Shreshth Sharma</div>
+
+            <ul id="functionality">
+                <li>
+                    <button id="add-task">Add Task</button>
+                </li>
+
+                <li>
+                    <button id="search-task">Search</button>
+                </li>
+
+                
+                <li>
+                    <button id="today-tasks">Today</button>
+                </li>
+                
+                <li>
+                    <button id="view-task">View Task</button>
+                </li>
+                
+            </ul>
+
+            <div id="My Projects">
+                <ul>
+                    <li>Default Project</li>
+                </ul>
+            </div>
+
+
+        </div>
+
+        <div id="main">
+            <h1>Today</h1>
+
+        </div>
+    </div>
+
+    <dialog id="dialog">
+        <form method="dialog">
+          <div>
+            <input type="text" placeholder="task name" required />
+          </div>
+          
+          <div>
+            <input type="text" placeholder="description" required />
+          </div>
+
+          <div>
+            <input type="date" placeholder="task name" required />
+          </div>
+          
+          <div>
+            <select id="priority" name="priority">
+                <option value="1">Priority 1</option>
+                <option value="2">Priority 2</option>
+                <option value="3">Priority 3</option>
+                <option value="4">Priority 4</option>
+            </select>
+          </div>
+
+          <div>
+            <select id="category" name="category">
+                <!-- need to add categories using js -->
+            </select>
+          </div>
+
+
+        </form>
+      </dialog>
+
+      <output></output>
+      
+    
+</body>
+</html>

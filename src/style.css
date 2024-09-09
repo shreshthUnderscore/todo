@@ -1,4 +1,91 @@
+*
+{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
 body
 {
-    background-color: blue;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
 }
+
+#content
+{
+    display: flex;
+    height: 100vh;
+}
+
+#sidebar
+{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100vh;
+    padding: 1rem;
+    background-color: bisque;
+}
+
+#main
+{
+    display: flex;
+    flex: 5;
+    height: 100vh;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+#content
+{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+#sidebar
+{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 300px;
+    background-color: aquamarine;
+    height: 100vh;
+    padding: 1rem;
+}
+
+
+#sidebar > h1
+{
+    text-align: end;
+}
+
+#main
+{
+    flex: 1;
+    background-color: black;
+} */

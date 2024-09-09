@@ -1,4 +1,11 @@
 import "./style.css";
+import TodoCreation from "./todoclass.js";
 
+const addTaskBtn = document.querySelector('#add-task');
+const dialogEle = document.querySelector("#dialog");
 
-console.log("hello world")
+addTaskBtn.addEventListener('click', () => 
+{
+        dialogEle.showModal();
+});
+
