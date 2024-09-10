@@ -9,7 +9,7 @@
     <div id="content">
         <div id="sidebar">
 
-            <div id="user-details">Shreshth Sharma</div>
+            <div id="user-details">Welcome</div>
 
             <ul id="functionality">
                 <li>
@@ -33,7 +33,7 @@
 
             <div id="My Projects">
                 <ul>
-                    <li>Default Project</li>
+                    <li>My Todos</li>
                 </ul>
             </div>
 
@@ -47,21 +47,21 @@
     </div>
 
     <dialog id="dialog">
-        <form method="dialog">
+        <form method="dialog" id="add-task-form">
           <div>
-            <input type="text" placeholder="task name" required />
+            <input type="text" id="task-title" placeholder="task name" required />
           </div>
           
           <div>
-            <input type="text" placeholder="description" required />
+            <input type="text" id="task-description" placeholder="description" required />
           </div>
 
           <div>
-            <input type="date" placeholder="task name" required />
+            <input type="date" id="task-date" placeholder="task name" required />
           </div>
           
           <div>
-            <select id="priority" name="priority">
+            <select id="task-priority">
                 <option value="1">Priority 1</option>
                 <option value="2">Priority 2</option>
                 <option value="3">Priority 3</option>
@@ -70,9 +70,14 @@
           </div>
 
           <div>
-            <select id="category" name="category">
+            <select id="task-category">
+                <option value="default">Default</option>
                 <!-- need to add categories using js -->
             </select>
+          </div>
+
+          <div>
+            <button type="reset" id="submit-button">Submit</button>
           </div>
 
 

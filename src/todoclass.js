@@ -1,12 +1,13 @@
-export class TodoCreation
+export default class TodoCreation
 {
 
-    constructor(title, description, dueDate, priority)
+    constructor(title, description, dueDate, priority, category)
     {        
         this.title = title;
         this.description = description;
         this.dueDate = dueDate;
         this.priority = priority;
+        this.category = category;
     }
 
     get title()
@@ -27,5 +28,3 @@ export class TodoCreation
     }
 }
 
-
-// default export TodoCreation;
