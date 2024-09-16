@@ -15,7 +15,7 @@ export default function createTodoDOM(todoObj)
     
     var taskDate = document.createElement("div");
     taskDate.classList.add("taskDate");
-    taskDate.textContent = todoObj.date;
+    taskDate.textContent = todoObj.dueDate;
     
     var taskPriority = document.createElement("div");
     taskPriority.classList.add("taskPriority");
